@@ -20,8 +20,6 @@ class MainActivity : AppCompatActivity() {
 
     fun Fragmentos(){
         supportFragmentManager.commit {
-            add(R.id.contenedor,Main())
-            addToBackStack("Main")
 
             binding.apply {
 
